@@ -2,7 +2,7 @@
 
 1. Clone This Repo.
 2. Run `make docker-build` for x86 user, or `make docker-build-arm` for arm chip user.
-
+3. Script to run DAG is /dags/dag_postgres.py and connect with /spark-scripts/try.py
 ---
 ```
 ## docker-build			- Build Docker Images (amd64) including its inter-container network.
